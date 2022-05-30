@@ -1,0 +1,31 @@
+LOGIC
+- set inital time to 0
+- increase time by 1s
+- display time increment
+
+# displaying only hours, minutes and seconds
+1. set hour, minute and seconds to 0:0:0
+2. combine into one display
+3. update to screen every second 
+
+# startTimer()
+- adds a value of 1 to the variable 'seconds'
+- get executed every second using a setInterval() method 
+
+# pauseTimer()
+- uses the clearInterval() method to stop the pauseTimer
+- have to save the time from the previous counter
+
+# resetTimer()
+- resets the timer back to 0:0:0
+
+Events
+1. start timer
+2. pause timer 
+3. reset timer
+4. resume timer
+
+
+
+setInterval() - executes a function multiple times
+clearInterval() - stops the execution from setInterval()
